@@ -46,3 +46,12 @@ while True:
         break
     print('Valores ou operador incorreto!')
     continue
+
+# fatiamento
+
+tupla = ('u', 'n', 'i', 'v', 'e', 'r', 's', 'o')
+print(tupla)
+print(len(tupla))
+print(tupla[1:6])
+print(tupla[-2:len(tupla)])
+print(tupla[-2:-1])

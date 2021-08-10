@@ -1,15 +1,7 @@
-op_validos = ['+', '-', '/', '*']
 
-while True:
-    e = input('Digite o primeiro valor: ')
-    op = input(f'Digite o operador (opções: {op_validos}): ')
-    d = input('Digite o segundo valor: ')
-    if op in op_validos and e.isnumeric() and d.isnumeric():
-        if op == '/' and d == '0':
-            print('Divisão por 0! Tente novamente.')
-            continue
-        expressao = e + ' ' + op + ' ' + d
-        print(e, op, d, '=', eval(expressao))
-        break
-    print('Valores ou operador incorreto!')
-    continue
+lista1 = ('u', 'n', 'i', 'v', 'e', 'r', 's', 'o')
+print(lista1)
+print(len(lista1))
+print(lista1[1:6])
+print(lista1[-2:len(lista1)])
+print(lista1[-2:-1])
