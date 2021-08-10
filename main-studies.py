@@ -1,6 +1,3 @@
-"""
-py1IESB.ipynb
-"""
 
 variavel1 = 10
 variavel2 = 3
