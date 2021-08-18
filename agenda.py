@@ -45,10 +45,10 @@ while not parar:
     if '1' in inp:
         ver_contatos()
 
-    if '2' in inp:
+    elif '2' in inp:
         salvar_contato()
 
-    if '3' in inp:
+    elif '3' in inp:
         parar = stop()
         if parar:
             continue
