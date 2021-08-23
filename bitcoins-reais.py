@@ -9,12 +9,12 @@ while(True):
 
         if (operation == 1):
             bitcoins = float(input("\nvalor em bitcoins: "))
-            reais = bitcoins/2
+            reais = bitcoins * 267323.27
             print(f"\n{bitcoins} bitcoins = {reais} reais\n")
 
         elif (operation == 2):
             reais = float(input("\nvalor em reais: "))
-            bitcoins = reais*2
+            bitcoins = reais / 267323.27
             print(f"\n{reais} reais = {bitcoins} bitcoins\n")
 
         elif (operation == 3):
