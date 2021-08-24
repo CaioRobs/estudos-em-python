@@ -1,13 +1,12 @@
-from agenda import Agenda
+import Agenda
 
 print('~'*30)
 print('\nIniciando Agenda\n')
 print('~'*30)
 
-contatos = []
+contatos = []  # type: list
 
 while True:
-    print('Selecione uma opção:')
     print('Cadastrar contato -> 1')
     print('Buscar contato -> 2')
     print('Apagar contato -> 3')
@@ -43,3 +42,5 @@ while True:
         nome = input('Digite o nome do contato a atualizar: ')
         print()
         Agenda.atualizar(contatos, nome)
+        print('Contato atualizado!')
+        print('~'*30+'\n')

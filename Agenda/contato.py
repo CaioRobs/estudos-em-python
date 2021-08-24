@@ -7,31 +7,31 @@ class Contato():
         self.__instagram = instagram
 
     def setNome(self):
-        self.__nome = input('Digite o novo nome: ')
+        self.__nome = input('\nDigite o novo nome: ')
 
     def getNome(self):
         return self.__nome
 
     def setTelefone(self):
-        self.__telefone = int(input('Digite o novo numero de telefone: '))
+        self.__telefone = int(input('\nDigite o novo numero de telefone: '))
 
     def getTelefone(self):
         return self.__telefone
 
     def setEmail(self):
-        self.__email = input('Digite o novo email: ')
+        self.__email = input('\nDigite o novo email: ')
 
     def getEmail(self):
         return self.__email
 
     def setTwitter(self):
-        self.__twitter = input('Digite o novo twitter: ')
+        self.__twitter = input('\nDigite o novo twitter: ')
 
     def getTwitter(self):
         return self.__twitter
 
     def setInstagram(self):
-        self.getInstagram = input('Digite o novo Instagram: ')
+        self.getInstagram = input('\nDigite o novo Instagram: ')
 
     def getInstagram(self):
         return self.__instagram
