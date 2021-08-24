@@ -3,13 +3,10 @@ from contato import Contato
 
 def adicionar(nome, telefone, email, twitter, instagram):
     novo_contato = Contato(nome, telefone, email, twitter, instagram)
-    print(novo_contato.getNome())
     return novo_contato
 
 
 def buscar(contatos, nome):
-    print(contatos)
-    print(type(contatos))
     if len(contatos) != 0:
         for contato in contatos:
             if contato.getNome() == nome:
