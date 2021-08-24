@@ -11,7 +11,7 @@ class Agenda():
                 if contato.getNome() == nome:
                     print(f'{contato.getNome()} | {contato.getTelefone()} | {contato.getEmail()} | {contato.getTwitter()} | {contato.getInstagram()}')
                     return
-            print('Nome não encontrado!\n')
+            print('Contato não encontrado!\n')
         else:
             print('Lista está vazia!')
 
@@ -24,7 +24,7 @@ class Agenda():
                     print(f'Contato {nome} removido com sucesso!')
                     return
                 contador += 1
-            print('Nome não encontrado!')
+            print('Contato não encontrado!')
         else:
             print('Lista está vazia!')
 
@@ -32,6 +32,8 @@ class Agenda():
         if len(contatos) != 0:
             for contato in contatos:
                 if contato.getNome() == nome:
-                    print(f'{contato} será atualizado')
+                    print('Selecione um dado para ser atualizado')
+                
+            print('Contato não encontrado')
         else:
-            return 'Lista está vazia!'
+            print('Lista está vazia!')

@@ -43,4 +43,3 @@ while True:
         nome = input('Digite o nome do contato a atualizar: ')
         print()
         Agenda.atualizar(contatos, nome)
-
