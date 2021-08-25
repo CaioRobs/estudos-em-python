@@ -1,5 +1,5 @@
 
-# loop infinito
+# loops infinitos
 # while 1 > 0:
 #     b = int(input('aqe'))
 #     while True:
@@ -7,9 +7,9 @@
 #         b += 1
 #         print(b)
 
-contador = 1
-while contador < 20:
-    contador += 1
-    while contador < 10:
-        print('entre')
-    print('não entre')
+# contador = 1
+# while contador < 20:
+#     contador += 1
+#     while contador < 10:
+#         print('entre')
+#     print('não entre')
