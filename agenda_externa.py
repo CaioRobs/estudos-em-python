@@ -2,21 +2,21 @@ import json
 
 
 def gravar(dicionario):
-    with open('agenda' + '.json', 'w') as f:
+    with open('agenda_externa' + '.json', 'w') as f:
         json.dump(dicionario, f, indent=2)
         f.close()
 
 
 def ler():
-    agenda = {}
+    agenda_externa = {}
     try:
-        with open('agenda' + '.json', 'r') as f:
-            agenda = json.load(f)
+        with open('agenda_externa' + '.json', 'r') as f:
+            agenda_externa = json.load(f)
             f.close()
-            return agenda
+            return agenda_externa
     except FileNotFoundError:
-        gravar(agenda)
-        return agenda
+        gravar(agenda_externa)
+        return agenda_externa
 
 
 def salvar_contato():
