@@ -22,7 +22,7 @@ a = 2
 aNone = None
 # print(aNone)
 
-idade = int(input('Qual é sua idade? '))
+# idade = int(input('Qual é sua idade? '))
 # if idade >= 18:
 #   print('Você pode dirigir')
 # else:
@@ -55,3 +55,26 @@ op_validos = ['+', '-', '/', '*']
 # print(tupla[1:6])
 # print(tupla[-2:len(tupla)])
 # print(tupla[-2:-1])
+
+# lista = []
+# n1 = input("informe um numero")
+# num_list = list(n1)
+# for i in num_list:
+#     lista.append(int(i))
+# if (sum(lista)) % 3 == 0:
+#     print('numero divisivel')
+# else:
+#     print('numero ano dic')
+
+# a = int(input('primeiro numero: '))
+# b = int(input('segundo numero: '))
+
+# resultado = a / b
+
+# print(resultado)
+
+frase = input("insira a frase: ")
+
+lista = list(frase.split(" "))
+
+print(lista)
