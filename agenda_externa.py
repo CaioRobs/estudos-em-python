@@ -36,7 +36,9 @@ def ver_contatos():
 def stop():
     p = input('Close? [y/n]: ')
     if 'y' in p:
+        print('Fechando...')
         return True
+    return False
 
 
 parar = False
@@ -50,7 +52,4 @@ while not parar:
 
     elif '3' in inp:
         parar = stop()
-        if parar:
-            continue
-
-    parar = stop()
+        continue
